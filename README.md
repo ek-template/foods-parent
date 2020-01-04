@@ -1,5 +1,10 @@
 ## Foods-Parent
 
+[![coverage](https://img.shields.io/badge/项目创建&贡献者-尔康-blueviolet.svg)](https://www.qekang.com)
+[![coverage](https://img.shields.io/badge/blog-important.svg)](https://www.qekang.com)
+[![coverage](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+[![coverage](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+
 #### 基于Nacos RPC框架：
 
 Nacos 致力于帮助您发现、配置和管理微服务。Nacos 提供了一组简单易用的特性集，帮助您快速实现动态服务发现、服务配置、服务元数据及流量管理。
