@@ -1,0 +1,64 @@
+foods:
+  mes:
+    name: this is application.yml
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/foods?useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: qierkang
+  redis:
+    host:
+    port: 6379
+    password:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 100MB
+      max-request-size: 100MB
+  cache:
+    type: redis
+    redis:
+      cache-null-values: false
+      use-key-prefix: true
+      time-to-live: 600000
+#  security:
+#    basic:
+#      enabled: true
+#    user:
+#      name: admin
+#      password: password
+
+mybatis-plus:
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.cloud.food.model
+  configuration:
+    map-underscore-to-camel-case: true
+    call-setters-on-nulls: true
+  global-config:
+    db-config:
+      id-type: AUTO
+
+
+
+#feign.hystrix.enabled: true
+
+#hystrix:
+#  command:
+#    default:
+#      fallback.enabled: false
+#      circuitBreaker.enabled: true
+#      execution.isolation.thread.timeoutInMilliseconds: 5000
+#  threadpool:
+#    default:
+#      coreSize: 20
+#      maximumSize: 20
+
+#brio:
+#  account:
+#    wx:
+#      mpAppId:
+#      mpAppSecret:
+#      mpDistributionAppId:
+#      mpDistributionAppSecret:
+
