@@ -8,9 +8,9 @@ spring:
     username: root
     password: qierkang
   redis:
-    host:
+    host: 47.100.32.28
     port: 6379
-    password:
+    password: qierkang
   servlet:
     multipart:
       enabled: true
