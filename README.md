@@ -23,6 +23,7 @@ Nacos 致力于帮助您发现、配置和管理微服务。Nacos 提供了一�
 - foods-model：Cloud模型实体☺️
 - foods-dao：Cloud数据交互层😊
 - foods-utils：Cloud公共工具包😇
+- 项目启动顺序：先启动ServiceApplication 然后在启动网关GatewayApplication
 
 ## 已包含的组件
 
